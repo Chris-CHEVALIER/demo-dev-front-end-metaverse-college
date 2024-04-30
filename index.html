@@ -3,7 +3,6 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
     <title>La librairie du Metaverse - Accueil</title>
     <meta
       name="description"
@@ -11,82 +10,120 @@
     />
     <meta name="keywords" content="librairie, metaverse, college" />
     <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon" />
-    <style>
-      table, th, td {
-        border: 5px solid red;
-        border-collapse: collapse;
-      }
-    </style>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1 style="text-align: center; font-size: 54px">
-      La libraire du Metaverse
-    </h1>
-    <hr />
-    <h2>Sommaire</h2>
-    <ol>
-      <li><a href="#description">Description du Metaverse</a></li>
-      <li><a href="#digital-college">Digital College</a></li>
-      <li><a href="#complements">Compléments</a></li>
-    </ol>
+    <header>
+      <nav>
+        <a href="https://digital-college.fr/" target="_blank">
+          <img
+            src="./images/logo.png"
+            alt="Logo de Digital College"
+            class="logo"
+          />
+        </a>
 
-    <hr />
-    <h2 id="description">Description du Metaverse</h2>
-    <p>
-      <strong> Lorem</strong> ipsum dolor sit amet, consectetur adipisicing
-      elit. Consequuntur, <b>dolores</b> reprehenderit <em>aperiam</em> saepe
-      repellendus consectetur voluptatem odit <i>dolorum</i>, eaque, deleniti
-      fugit atque voluptates recusandae. <br />
-      <br />
-      <br />
-      <del>Debitis</del> porro reiciendis unde repellendus aliquid?
-    </p>
-    <hr />
+        <ol>
+          <li><a href="#description">Description du Metaverse</a></li>
+          <li><a href="#digital-college">Digital College</a></li>
+          <li><a href="#complements">Compléments</a></li>
+        </ol>
+        <i class="fa-solid fa-bars"></i>
+      </nav>
 
-    <h2 id="digital-college">Digital College</h2>
-    <a href="https://digital-college.fr/" target="_blank">
-      <img
-        src="./images/logo.png"
-        width="280px"
-        alt="Logo de Digital College"
-      />
-    </a>
-    <img
-      src="https://storage.googleapis.com/preprod-phoenix-bucket/rce/medias/osp_card/1067/digitalcollege-photo01-jpg-1912160546081-min-220713083146.jpg"
-      alt="La superbe équipe de Digital College !"
-    />
-    <hr />
+      <h1>La libraire du Metaverse</h1>
+    </header>
 
-    <h2>Bibliographie</h2>
-    <table>
-      <tr>
-        <th colspan="2">Titre & auteur</th>
-        <th>Desc.</th>
-      </tr>
-      <tr>
-        <td>Token Titans</td>
-        <td>Tugan Bara</td>
-        <td>
-          Lorem 
-        </td>
-      </tr>
-      <tr>
-        <td>Le Metaverse pour les nuls</td>
-        <td>John Doe</td>
-        <td>
-          Lorem
-        </td>
-      </tr>
-    </table>
-    <hr />
+    <main>
+      <hr />
 
-    <h2 id="complements">Compléments</h2>
+      <hr />
+      <section>
+        <h2 id="description">Description du Metaverse</h2>
+        <p>
+          <strong> Lorem</strong> ipsum dolor sit amet, consectetur adipisicing
+          elit. Consequuntur, <b>dolores</b> reprehenderit
+          <em>aperiam</em> saepe repellendus consectetur voluptatem odit
+          <i>dolorum</i>, eaque, deleniti fugit atque voluptates recusandae.
+          <br />
+          <br />
+          <br />
+          <del>Debitis</del> porro reiciendis unde repellendus aliquid?
+        </p>
+      </section>
+      <hr />
 
-    <a href="https://metaverse-college.fr/" target="_blank">
-      Metaverse College</a
-    >
-    <a href="./about.html">À propos</a>
-    <a href="mailto:chevalier@chris-freelance.com">Me contacter</a>
-    <hr />
+      <section>
+        <h2 id="digital-college">Digital College</h2>
+        <img
+          src="https://storage.googleapis.com/preprod-phoenix-bucket/rce/medias/osp_card/1067/digitalcollege-photo01-jpg-1912160546081-min-220713083146.jpg"
+          alt="La superbe équipe de Digital College !"
+          class="team-pic"
+        />
+      </section>
+      <hr />
+
+      <section>
+        <h2>Bibliographie</h2>
+        <table>
+          <tr>
+            <th colspan="2">Titre & auteur</th>
+            <th>Desc.</th>
+          </tr>
+          <tr>
+            <td>Token Titans</td>
+            <td>Tugan Bara</td>
+            <td>Lorem</td>
+          </tr>
+          <tr>
+            <td>Le Metaverse pour les nuls</td>
+            <td>John Doe</td>
+            <td>Lorem</td>
+          </tr>
+        </table>
+      </section>
+      <hr />
+
+      <section>
+        <h2 id="complements">Compléments</h2>
+
+        <a href="https://metaverse-college.fr/" target="_blank">
+          Metaverse College</a
+        >
+        <a href="./about.html">À propos</a>
+        <a href="mailto:chevalier@chris-freelance.com">Me contacter</a>
+      </section>
+      <hr />
+
+      <video src="./assets/planet.mp4" autoplay loop muted controls>
+        Votre navigateur ne peut pas lire la vidéo
+      </video>
+
+      <audio src="./assets/music.mp3" controls>
+        Votre navigateur ne peut pas lire l'audio
+      </audio>
+      <hr />
+
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2623.2030175836003!2d2.233420511662467!3d48.89246797121725!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e665ab1641849b%3A0x24eba06c81ddb62b!2sMetaverse%20College!5e0!3m2!1sfr!2sfr!4v1714464537869!5m2!1sfr!2sfr"
+        width="600"
+        height="450"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+      <hr />
+    </main>
+    <footer>
+      <p>Copyright Chris Chevalier 2024</p>
+    </footer>
   </body>
 </html>
